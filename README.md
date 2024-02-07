@@ -1,1 +1,9 @@
-# tutorial-1
+## Refleksi 1
+Setelah meninjau kembali kode saya setelah menambahkan fitur baru menggunakan Spring Boot, saya telah memeriksa penerapan prinsip-prinsip clean code dan secure coding practices. Prinsip-prinsip ini termasuk penggunaan meaningful names untuk variabel dan fungsi, memastikan setiap fungsi hanya melakukan satu tugas, mengurangi penggunaan comment dengan menulis kode yang jelas, dan menggunakan struktur objek yang sesuai. Selain itu, saya juga telah membuat unit test dan functional test yang relevan.
+
+Mungkin salah satu kesalahan pada kode saya adalah error handling serta authentication dan authorization yang belum diimplementasikan. Untuk memperbaiki hal ini, perlu ditambahkan penerapan error handling yang baik dan fitur keamanan tambahan seperti otentikasi dan otorisasi.
+
+## Refleksi 2
+Setelah menyusun unit test, saya merasa lebih yakin terhadap kebenaran kode saya. Jumlah unit test yang diperlukan dalam sebuah kelas tergantung pada kompleksitas fungsionalitas yang dimiliki oleh kelas tersebut. Penting untuk memastikan bahwa setiap fungsi yang ada telah diuji secara memadai untuk memverifikasi kinerja program secara keseluruhan. Code coverage adalah sebuah metrik yang bermanfaat untuk mengevaluasi sejauh mana kode telah diuji, namun mencapai 100% code coverage tidak menjamin bahwa tidak akan ada bug dalam kode. Ada kemungkinan bahwa beberapa kasus uji belum di-cover, atau mungkin ada bug yang terjadi karena logika yang salah atau asumsi yang salah dalam kode tersebut.
+
+Untuk membuat rangkaian functional test baru yang mirip dengan yang sudah ada, mungkin perlu dipertimbangkan potensi pengulangan atau duplikasi kode. Menggabungkan prosedur pengaturan umum menjadi metode yang dapat digunakan kembali atau kelas utilitas dapat meningkatkan kebersihan dan kualitas kode secara keseluruhan. Ini akan membantu mengurangi duplikasi kode dan meningkatkan keterbacaan dan pemeliharaan kode.
