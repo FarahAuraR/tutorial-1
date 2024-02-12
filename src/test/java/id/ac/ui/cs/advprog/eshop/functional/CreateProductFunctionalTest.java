@@ -51,7 +51,7 @@ public class CreateProductFunctionalTest {
         driver.get(baseUrl);
         String welcomeMessage = driver.findElement(By.tagName("h2")).getText();
 
-        assertEquals("Product' List", welcomeMessage);
+        assertEquals("Product List", welcomeMessage);
     }
 
     @Test
